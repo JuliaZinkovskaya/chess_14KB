@@ -2,6 +2,9 @@
     width: 40px;
     height: 40px;
     border: solid thin;
+    border-color: black;
+    font-size: 30px;
+    text-align: center;
 }
 
 #board table {
@@ -11,4 +14,14 @@
 #board tr:nth-child(odd) td:nth-child(odd),
 #board tr:nth-child(even) td:nth-child(even) {
     background-color: black;
+}
+
+#board tr:nth-child(1), tr:nth-child(2) {
+   color: black;
+    text-shadow: 1px 1px 2px white, 0 0 1em blueviolet;
+}
+
+#board tr:nth-child(7), tr:nth-child(8) {
+   color: white;
+   text-shadow: 1px 1px 2px black, 0 0 1em orangered;
 }
